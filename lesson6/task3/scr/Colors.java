@@ -3,6 +3,7 @@ public enum Colors{
     // uppercase
     RED (255, 0, 0),
     GREEN (0, 128, 0),
+    GREEN1 (10000,128, 0),
     BLUE (0, 0, 255);
 
     // understandable name
@@ -11,6 +12,7 @@ public enum Colors{
     private final int blue;
 
     Colors(final int red, final int green, final int blue) {
+
         // todo validation
         this.red = red;
         this.green = green;

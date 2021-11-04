@@ -5,12 +5,12 @@ public enum Vaccine {
     ASTRAZENECA ("AstraZeneca");
 
     // tod 'name' isn't best choice
-    private String displayName;
-    Vaccine(String displayName){
-        this.displayName = displayName;
+    private String name;
+    Vaccine(String name){
+        this.name = name;
     }
 
-    public String getDisplayName() {
-        return displayName;
+    public String getName() {
+        return name;
     }
 }

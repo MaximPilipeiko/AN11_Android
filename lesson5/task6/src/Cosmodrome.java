@@ -1,5 +1,4 @@
 
-//todo not inherit
 public class Cosmodrome {
     // todo IStart as parametr
     public void start(IStart start) {

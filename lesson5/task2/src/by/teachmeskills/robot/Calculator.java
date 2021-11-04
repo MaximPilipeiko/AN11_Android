@@ -1,7 +1,7 @@
 package by.teachmeskills.robot;
 
 public class Calculator {
-    private int maxPrice;
+
 
     public String findMaxPrice(Robot[] robots) { //если 2 или более робота с одинаковой ценой - все равно возвращаем первого
         maxPrice = 0;
@@ -17,7 +17,4 @@ public class Calculator {
         return robotName;
     }
 
-    public int getMaxPrice() {
-        return maxPrice;
-    }
 }

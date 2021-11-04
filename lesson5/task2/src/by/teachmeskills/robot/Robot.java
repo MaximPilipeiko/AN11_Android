@@ -8,7 +8,7 @@ public class Robot implements IRobot {
     private IHead head;
     private IHand hand;
     private ILeg leg;
-    private final String name; //Максим, я добавил роботам имя, чтобы нам было проще найти самого дорогого робота
+    private final String name;
 
     public Robot(IHead head, IHand hand, ILeg leg, String name) {
         this.head = head;
@@ -65,6 +65,7 @@ public class Robot implements IRobot {
         return price;
     }
 
-
-
+    public int compare(Robot r) {
+        return this.getPrice() - r.getPrice();
+    }
 }

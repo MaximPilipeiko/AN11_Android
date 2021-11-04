@@ -1,6 +1,7 @@
 package jacket;
 
-public class LeatherJacket implements IJacket{
+public class LeatherJacket implements IJacket {
+
     // todo store name isn't good
     @Override
     public void putOn() {

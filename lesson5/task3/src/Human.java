@@ -10,11 +10,11 @@ public class Human {
     private final String name;
 
     // todo args final too
-    public Human(IJacket jacket, IShoes shoes, ITrousers trousers, String name) {
-        this.jacket = jacket;
-        this.shoes = shoes;
-        this.trousers = trousers;
-        this.name = name;
+    public Human(final IJacket pJacket, final IShoes pShoes, final ITrousers pTrousers, final String pName) {
+        jacket = pJacket;
+        shoes = pShoes;
+        trousers = pTrousers;
+        name = pName;
     }
 
     // todo understendable name
