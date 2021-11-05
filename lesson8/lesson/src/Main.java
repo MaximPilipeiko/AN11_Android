@@ -33,7 +33,7 @@ public class Main {
 
     public static int calculate(int a, int b) throws CalculateException {
         if (b == 0) {
-            throw new IllegalArgumentException()
+            throw new IllegalArgumentException();
         }
 
 
@@ -67,7 +67,7 @@ public class Main {
 //        final Person person = new Person(1);
 //        System.out.println(person.getId());
 
-        final Switch switch1 = new Switch();
+        final Switch switch1 = new MySwitch();
         try {
             switch1.on();
             return;
