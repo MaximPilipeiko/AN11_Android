@@ -1,9 +1,11 @@
-public class CensorAccum implements Runnable {
-    private final SyncSentences badSentences;
+import java.util.List;
+
+public class CensorAccumOptim implements Runnable {
+    private final List<String> badSentences;
     private final String[] sentences;
     private final String[] blackList;
 
-    public CensorAccum(final SyncSentences pBadSentences, final String[] pSentences, final String[] pBlackList) {
+    public CensorAccumOptim(final List<String> pBadSentences, final String[] pSentences, final String[] pBlackList) {
         badSentences = pBadSentences;
         sentences = pSentences;
         blackList = pBlackList;
